@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    .parent{
+        position: relative;
+    }
+}
+
+.box{
+    height: 80px;
+    width: 80px;
+    background-color: blue;
+    border-radius: 50%;
+
+
+}
+ .box{
+
+    position:absolute;
+    top: 0;
+
+ }
+
+ #checkbox.checked ~ .box{
+    position: absolute;
+    top: 0;
+    
+ }
+ ]
+
+
+
+#checkebox:checked ~ .box{
+    background-color: brown;
+   
+}
